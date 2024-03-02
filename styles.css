@@ -1,0 +1,111 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.filter {
+    background: linear-gradient(to top, rgba(255, 26, 26, 0.8) 0, rgba(255, 255, 255, 0) 60%, rgba(0, 0, 0, 0.8) 100%), url(https://assets.nflxext.com/ffe/siteui/vlv3/93da5c27-be66-427c-8b72-5cb39d275279/56ba55e9-4231-4440-ab13-9f8d013c6700/TH-en-20240226-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    height: 60vh;
+    width: 100vw;
+
+}
+.hero{
+    margin: 0px 200px;
+}
+nav {
+    display: flex;
+    flex-direction: row; 
+    /* default row */
+    /* justify follow direction */
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px
+}
+nav img {
+    width: 200px;
+}
+nav select {
+    border: none;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    font-size: 20px;
+
+}
+nav .right {
+    display: flex;
+    gap: 10px;
+}
+nav .right button {
+    background-color: rgb(227, 69, 20);
+    border: none;
+    border-radius: 4px;
+    color : white;
+    padding: 3px 10px;
+    font-size: 13px;
+
+}
+nav .selector {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0);
+    align-items: center;
+    border: 1px solid rgba(168, 168, 168, 0.8);
+    padding: 3px;
+    border-radius: 4px;
+    color: white;
+    font-size: 20px;
+}
+
+nav option {
+    color: black;
+}
+
+.section {
+    background-color: black;
+    height: 100vh;
+    color: white;
+    padding: 0px 200px;
+    padding-top: 100px;
+
+}
+
+.section .poster {
+    display: flex;
+    gap: 20px;
+}
+
+.section .poster .card {
+    border: 1px solid rgba(168, 168, 168, 0.8);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.section .poster .card img{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.section .poster .card h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+footer {
+    padding-top: 100px;
+    border-top: 3px solid red;
+    background-color: rgb(78, 78, 78);
+    color: white;
+    height: 30vh;
+}
+
+footer .container {
+    margin: 0px 200px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+
+footer .container a{
+    color: white;
+}
